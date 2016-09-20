@@ -3,18 +3,40 @@ session_start();
 include('header.html');
 ?>
 
-<div class="container-fluid">
-	<div class="row">
-	<div class="block1 col-lg-12">
-		<ul class="ul1">
-			<li class="li1">1 Inscrivez-Vous</li>
-			<li class="li1">2 Jouez </li>
-			<li class="li1">3 Verifiez vos gains</li>
-			<li class="li1">4 Récupérez vos gains</li>
+<!-- SECTION COMMENT JOUER -->
+<section class="section-container section-comment">
+	<div class="section-content">
+		<h1 id="commentjouer">Comment jouer ?</h1>
+		<ul class="instructions-container">
+			<li class="instruction">
+				<div class="puce">
+					<div class="puce-inner">1</div>
+				</div>
+				<h4>Inscrivez-vous</h4>
+				<p><b>Cliquez sur le bouton</b><br/>
+				<span class="link"><a href="inscription.php">S'inscrire</a></span> et remplissez le formulaire d'inscription avec vos informations personnelles</p>
+			</li>
+			<li class="instruction">
+				<div class="puce"><div class="puce-inner">2</div></div>
+				<h4>Tirage au sort</h4>
+				<p>Envoyer-nous vous vos informations, un <b>tirage au sort</b>aura lieu dans peu de temps</p>
+			</li>
+			<li class="instruction">
+				<div class="puce"><div class="puce-inner">3</div></div>
+				<h4>Vérifiez vos gains </h4>
+			
+				<ul class="details">
+					<li>> <b>1er Prix</b> &nbsp;Un Airbus A380 full tunné.
+					</li>
+					<li>> <b>2eme Prix</b> Une Porshe Cayenne sans moteur.
+					</li>
+					<li>> <b>3eme Prix</b>&nbsp;Une canette périmée de Monster Energy.<br></li>
+				</ul>
+			</li>
 		</ul>
 	</div>
-	</div>
-</div>
+</section>
+
 
 
 
@@ -22,3 +44,5 @@ include('header.html');
 session_start();
 include('footer.html');
 ?>
+
+

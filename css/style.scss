@@ -60,26 +60,6 @@ video {
 
 
 
-.block1 {
-	height: 42rem;
-	background-color: $gris;
-}
-
-
-.ul1 {
-	padding: 5rem;
-	 .li1{
-		list-style: none;
-		color: #fff;
-		font-size: 2rem;
-		text-align: center;
-		padding: 1rem;
-		background-color: $vert;
-		margin: 3rem;
-		border-radius: 5px;
-
-	      }
-    }
 
 
 
@@ -122,8 +102,110 @@ video {
 
 
 
+/* ------ JEUX ------ */
+#commentjouer {
+  font-family:'arial';
+  font-size: 8rem;
+  color: #e55706;
+  text-align: center;
+  font-weight: bolder;
+}
+.section-comment {
+  background: #063e76;
+}
+.section-comment ul.instructions-container {
+  list-style: none;
+  margin: 80px 0px 0;
+  font-size: 0px;
+  background-color: #ffffff;
+  border: 4px solid #dc4605;
+}
+.section-comment ul.instructions-container li.instruction {
+  display: inline-block;
+  width: 33%;
+  font-size: 20px;
+  min-height: 235px;
+  vertical-align: top;
+  background-color: #ffffff;
+  color: #261c64;
+  padding: 116px 10px 148px;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.section-comment ul.instructions-container li.instruction .puce {
+  width: 54px;
+  height: 54px;
+  border: 3px solid #dc4605;
+  background-color: #dc4605;
+  position: absolute;
+  text-align: center;
+  top: -30px;
+  z-index: 30;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  behavior: url('../css/PIE.php');
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-comment ul.instructions-container li.instruction .puce .puce-inner {
+  width: 48px;
+  height: 48px;
+  border: 3px solid #ffffff;
+  margin: 0 auto;
+  color: #ffffff;
+  line-height: 40px;
+  font-size: 1.250em;
+  font-weight: bold;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  behavior: url('../css/PIE.php');
+  background: #e55706;
+}
+.section-comment ul.instructions-container li.instruction h4 {
+  color: #dc4605;
+  font-size: 0.875em;
+}
+.section-comment ul.instructions-container li.instruction p {
+  font-size: 0.750em;
+  margin-top: 10px;
+  line-height: 1.75em;
+}
+.section-comment ul.instructions-container li.instruction p a {
+  color: #dc4605;
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
 
+.section-comment ul.instructions-container li.instruction:after {
+  display: block;
+  width: 1px;
+  height: 75%;
+  content: " ";
+  background-color: #dc4605;
+  position: absolute;
+  top: 90px;
+  right: 0;
+  z-index: 20;
+}
 
+.section-comment ul.details {
+  font-size: 0.75em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 3px;
+}
 
 
 
