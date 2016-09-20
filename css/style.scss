@@ -21,72 +21,38 @@ video {
     transform: translateX(-50%) translateY(-50%);
     background: url('contenu/cheval.jpg') no-repeat;
     background-size: cover;
-
     transition: 1s opacity;
 }
-.stopfade { 
-   opacity: .5;
-}
 
 
-h1 {
-  color :$orange;
-  font-size: 5vw;
-  text-transform: uppercase;
-  margin-top: 0;
-  letter-spacing: .3rem;
-  text-align: center;
 
-}
+
+
 .polina { 
-  font-weight:100; 
-  background: rgba(52, 152, 219,.9);
-  color: white;
-  padding: .3rem;
-  width: 66%;
-  font-size: 1.2rem;
-  transition-duration: 4s;
+
+  margin-top: 500px;
+  margin-left: 350px;
 
   button{
-  display: block;
-  width: 80%;
-  padding: .1rem;
-  border: none; 
-  margin: 1rem auto; 
   font-size: 1.3rem;
-  background: rgba(255,255,255,0.23);
+  background-color: $rouge;
   color: #fff;
-  border-radius: 3px; 
-  cursor: pointer;
-  transition: .5s background;
   text-align: center;
-
-  }
-  
-}
+  border-radius: 5px;
 
 
-
-.btn {
-	color: #fff;
-	font-weight: bolder;
-
- 	
- }
-
- button {
- 	&:hover {
- 		background-color:$orange;
- 		transition: .5s background;
- 	}
- }
-
-
-a {
+         } a {
   display: inline-block;
   text-decoration: none;
+  color: #fff;
+  font-size: 3vw;
+  font-weight: bolder;
  
-}
+              }
+  
+          }
+
+
 
 .para1 {
 	text-align: center;
@@ -102,7 +68,7 @@ a {
 
 .ul1 {
 	padding: 5rem;
-	.li1{
+	 .li1{
 		list-style: none;
 		color: #fff;
 		font-size: 2rem;
@@ -112,9 +78,128 @@ a {
 		margin: 3rem;
 		border-radius: 5px;
 
+	      }
+    }
 
 
-		
 
-	}
+ .logo-pmu {
+  height: 10%;
+  width: 10%;
+  transition-duration: 1s;
+
+&:hover {
+  transform: scale(1.07);
+  transition-duration: 1s;
+}
+
+}
+
+
+
+/* ----- FOOTER ---- */ 
+
+.footer {
+  background-color:#e0e0eb;
+}
+
+
+.traitbas
+    {
+    border-top: 2px solid black;
+    padding-top: 12px;
+    margin-top: 10px;
+    }
+
+.tipo {
+  font-style:italic;
+}
+
+
+.taille {
+  font-size:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----- CONTACTS ------ */
+
+.icons1 {
+  height: 150px;
+  width:150px;
+  list-style-type: none;
+  text-align: center;
+  margin: 29px;
+    margin-bottom: -2px;
+
+
+}
+.icons1:hover {
+  transform: scale(1.16);
+
+  
+}
+.liste-icons1 {
+  text-align: center;
+  display: inline-block;
+  list-style-type: none
+
+}
+ul.list1  {
+  margin-top: 150px;
+    text-align: center;
+
+}
+
+.contacts {
+  margin-top: 100px;
+  
+
+}
+.requis {
+  border-radius: 10px;
+  background-color: rgba(127, 140, 141,.2);
+
+}
+.requis:focus {
+  background-color: #ffffff;
+}
+.text {
+  border-radius: 10px;
+  background-color: rgba(127, 140, 141,.2);
+
+}
+.text:focus {
+  background-color: #ffffff;
+}
+.textarea {
+  border-radius: 10px;
+  background-color: rgba(127, 140, 141,.2);
+
+}
+.textarea:focus {
+  background-color: #ffffff;
+}
+.text-formu {
+color: rgba(231, 76, 60,1.0);
+
+}
+
+.envoyer{
+  background-color: rgba(231, 76, 60,1.0);
+  border-radius: 10px;
+}
+.envoyer:hover {
+  transform: scale(1.2);
+  background-color: rgba(231, 76, 60,.4);
+  color: #ffffff;
+
 }

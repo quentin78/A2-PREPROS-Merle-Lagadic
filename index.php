@@ -1,8 +1,22 @@
 
 <?php
 session_start();
-include('header.html');
+
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<script src="bootstrap/js/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/style.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<title> Grand Jeux FJ </title>
+</head>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xl-12 col-sm-12 col-xs-12 col-xs-12">
@@ -15,7 +29,7 @@ include('header.html');
 				
 					<div class="col-lg-offset-3 col-lg-8 col-md-offset-3 col-md-8 col-sm-offset-3 col-sm-8 col-xs-offset-2 col-xs-12">
 						<div class="polina">
-						<h1>Grand Jeu Concours</h1>
+						
 						<button><a href="jeux.php" class="btn">Cliquez pour Participer !</a></button>
 						</div>
 					</div>

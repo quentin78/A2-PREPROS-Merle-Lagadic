@@ -16,4 +16,10 @@ include('header.html');
 	</div>
 	</div>
 </div>
-</body>
+
+
+
+<?php
+session_start();
+include('footer.html');
+?>
