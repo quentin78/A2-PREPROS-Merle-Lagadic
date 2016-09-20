@@ -31,7 +31,7 @@ video {
 
 h1 {
   color :$orange;
-  font-size: 3rem;
+  font-size: 5vw;
   text-transform: uppercase;
   margin-top: 0;
   letter-spacing: .3rem;
@@ -42,16 +42,15 @@ h1 {
   font-weight:100; 
   background: rgba(52, 152, 219,.9);
   color: white;
-  padding: 1rem;
+  padding: .3rem;
   width: 66%;
-  margin:12rem;
   font-size: 1.2rem;
   transition-duration: 4s;
 
   button{
   display: block;
   width: 80%;
-  padding: .4rem;
+  padding: .1rem;
   border: none; 
   margin: 1rem auto; 
   font-size: 1.3rem;
@@ -89,13 +88,6 @@ a {
  
 }
 
-@media screen and (max-width: 500px) { 
-  div{width:70%;} 
-}
-@media screen and (max-device-width: 800px) {
-  html { background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
-  #bgvid { display: none; }
-}
 .para1 {
 	text-align: center;
 }
