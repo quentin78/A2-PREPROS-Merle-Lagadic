@@ -14,12 +14,12 @@ include('header.html');
 				</div>
 				<h4>Inscrivez-vous</h4>
 				<p><b>Cliquez sur le bouton</b><br/>
-				<span class="link"><a href="inscription.php">S'inscrire</a></span> et remplissez le formulaire d'inscription avec vos informations personnelles</p>
+				<span class="link"><a href="inscription.php">S'inscrire</a></span> et remplir le formulaire</p>
 			</li>
 			<li class="instruction">
 				<div class="puce"><div class="puce-inner">2</div></div>
 				<h4>Tirage au sort</h4>
-				<p>Envoyer-nous vous vos informations, un <b>tirage au sort</b>aura lieu dans peu de temps</p>
+				<p>Envoyer-nous vous vos informations, un <b>tirage au sort</b> aura lieu dans peu de temps</p>
 			</li>
 			<li class="instruction">
 				<div class="puce"><div class="puce-inner">3</div></div>
