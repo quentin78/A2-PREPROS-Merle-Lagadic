@@ -3,6 +3,7 @@ $bleu : rgba(52, 152, 219,1.0);
 $vert : rgba(46, 204, 113,1.0);
 $gris : rgba(52, 73, 94,1.0);
 $rouge : rgba(231, 76, 60,1.0);
+$vertpmu : #00a01e;
 
 @import "compass/css3";
 
@@ -212,12 +213,18 @@ video {
 
 
 
-/* -----  ------ */
+/* ----- VALIDER ------ */
 
 
-
-
-
+.validé {
+  background-color: $vertpmu;
+}
+img {
+  img-validé {
+    height: 150px;    
+    width: 150px;
+  }
+}
 
 
 
@@ -235,6 +242,17 @@ video {
 
 
 /* ----- Inscription ------ */
+
+
+.box-formulaire {
+  background-color: $vertpmu;
+  border-radius: 5px;
+  h1 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bolder;
+  }
+}
 
 
 .bg1{
