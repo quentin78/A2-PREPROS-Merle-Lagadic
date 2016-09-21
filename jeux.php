@@ -6,7 +6,7 @@ include('header.html');
 <!-- SECTION COMMENT JOUER -->
 <section class="section-container section-comment">
 	<div class="section-content">
-		<h1 class="commentjouer">Comment jouer ?</h1>
+		<p class="commentjouer">Comment jouer ?</p>
 		<ul class="instructions-container">
 			<li class="instruction">
 				<div class="puce">
