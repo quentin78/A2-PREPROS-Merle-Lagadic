@@ -257,7 +257,7 @@ img {
 
 .bg1{
   background-image: url('../contenu/images/pelouse.jpg');
-  padding: 25px;
+  padding: 61px;
 
 
 
@@ -265,11 +265,12 @@ img {
 
 } 
 
-form.formulaire {
+form{
+    formulaire {
 
   text-align: center;
 }
-
+}
 
 .requis {
   border-radius: 10px;
@@ -323,3 +324,6 @@ font-size: bolder;
   color:white;
 
 }
+
+/* footer */
+
