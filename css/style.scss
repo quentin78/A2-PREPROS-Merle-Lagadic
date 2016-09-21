@@ -5,11 +5,17 @@ $gris : rgba(52, 73, 94,1.0);
 $rouge : rgba(231, 76, 60,1.0);
 $vertpmu : #00a01e;
 
-
-
-body {
-  margin: 0;
+@font-face {
+font-family: 'theboldfont', 'big_noodle_titling';
+src: url('../contenu/theboldfont.ttf');
+src: url('../contenu/titling/big_noodle_titling.ttf');
 }
+
+@font-face {
+font-family:'big_noodle_titling';
+src: url('../contenu/titling/big_noodle_titling.ttf');
+}
+
 video { 
   position: fixed;
   top: 50%;
@@ -20,7 +26,6 @@ video {
   height: auto;
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
-  background: url('contenu/cheval.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
 }
@@ -105,8 +110,8 @@ video {
 
 /* ------ JEUX ------ */
 .commentjouer {
-  font-family:'arial';
-  font-size: 8rem;
+  font-family:'big_noodle_titling';
+  font-size: 10rem;
   color: #e55706;
   text-align: center;
   font-weight: bolder;
@@ -120,7 +125,7 @@ video {
 .section-comment {
   .instructions-container {
     list-style: none;
-    margin: 80px 0px 0;
+    margin: 40px 0px 0;
     font-size: 0px;
     background-color: #ffffff;
     border: 4px solid #dc4605;
@@ -203,8 +208,9 @@ video {
   .instructions-container {
     .instruction {
       h4 {
+        font-family: 'big_noodle_titling';
         color: #dc4605;
-        font-size: 0.875em;
+        font-size: 1.5em;
       }
     }
   }
@@ -227,6 +233,8 @@ video {
     .instruction { 
       p {
         a {
+          font-family: 'big_noodle_titling';
+          font-size: 1.6em;
           color: #dc4605;
           text-decoration: underline;
           font-weight: bold;
