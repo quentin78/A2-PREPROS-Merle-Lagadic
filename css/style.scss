@@ -212,76 +212,87 @@ video {
 
 
 
-/* ----- CONTACTS ------ */
+/* -----  ------ */
 
-.icons1 {
-  height: 150px;
-  width:150px;
-  list-style-type: none;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- Inscription ------ */
+
+
+.bg1{
+  background-image: url('../contenu/images/pelouse.jpg');
+  padding: 25px;
+
+
+
+
+
+} 
+
+form.formulaire {
+
   text-align: center;
-  margin: 29px;
-    margin-bottom: -2px;
-
-
-}
-.icons1:hover {
-  transform: scale(1.16);
-
-  
-}
-.liste-icons1 {
-  text-align: center;
-  display: inline-block;
-  list-style-type: none
-
-}
-ul.list1  {
-  margin-top: 150px;
-    text-align: center;
-
 }
 
-.contacts {
-  margin-top: 100px;
-  
 
-}
 .requis {
   border-radius: 10px;
-  background-color: rgba(127, 140, 141,.2);
+  background-color: #fff;
+    &:focus {
+      background-color: $rouge;
+    }
+}
 
-}
-.requis:focus {
-  background-color: #ffffff;
-}
-.text {
-  border-radius: 10px;
-  background-color: rgba(127, 140, 141,.2);
 
-}
-.text:focus {
-  background-color: #ffffff;
-}
+
+
+
+
 .textarea {
   border-radius: 10px;
-  background-color: rgba(127, 140, 141,.2);
+  background-color: $rouge;
+  &:focus{
+     background-color: #ffffff;
+
+  }
 
 }
-.textarea:focus {
-  background-color: #ffffff;
-}
+
 .text-formu {
-color: rgba(231, 76, 60,1.0);
+color: #fff;
+font-size: bolder;
 
 }
 
-.envoyer{
+  .envoyer {
+  text-align: center;
   background-color: rgba(231, 76, 60,1.0);
   border-radius: 10px;
-}
-.envoyer:hover {
-  transform: scale(1.2);
-  background-color: rgba(231, 76, 60,.4);
-  color: #ffffff;
+  text-align: center;
+      &:hover {
+    transform: scale(1.2);
+    background-color: rgba(231, 76, 60,.4);
+    color: #ffffff;
 
-}
+               }
+  }
+
+
