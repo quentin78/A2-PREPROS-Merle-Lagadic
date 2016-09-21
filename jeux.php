@@ -14,7 +14,7 @@ include('header.html');
 				</div>
 				<h4>Inscrivez-vous</h4>
 				<p><b>Cliquez sur le bouton</b><br/>
-				<span class=""><a href="">S'inscrire</a></span> et remplir le formulaire</p>
+				<span class=""><a href="inscription.php">S'inscrire</a></span> et remplir le formulaire</p>
 			</li>
 			<li class="instruction">
 				<div class="puce"><div class="puce-inner">2</div></div>
