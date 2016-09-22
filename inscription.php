@@ -26,7 +26,7 @@ include('header.html');
       
       
           
-          <form action="resultats-pop.php" method="post">
+          <form action="valider.php" method="post">
           
           <div class="top-row">
             <div class="field-wrap">
