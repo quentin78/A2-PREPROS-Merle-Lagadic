@@ -330,7 +330,40 @@ video {
 
 
 
+.container-fluid {
+   font-family:'big_noodle_titling';
+  h1 {
+    font-size: 3em;
+    
+  }
+  .row {
+    .text-pub{
+      margin-top: 100px;
+      padding: 20px;
+      font-size: 2em;
+      
+      
+      li {
+        padding-top: 30px;
+        list-style-type: none;
+        border-left: 1px solid $vertpmu;
+        padding-left: 10px;
 
+
+      }
+    }
+    .bg-pub {
+      background-image: url(../contenu/images/pub.png);
+      background-repeat: no-repeat;
+      height: 825px;
+      img {
+        height: 500px;
+        background-size: contain;
+      }
+  
+    }
+  }
+}
 
 
 

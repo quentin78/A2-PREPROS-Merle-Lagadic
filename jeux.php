@@ -38,7 +38,20 @@ include('header.html');
 </section>
 
 
+<div class="container-fluid">
+<h1>Des cadeaux innimaginables sont a gagner !</h1>
+	<div class="row">
+		<div class="text-pub col-lg-3"> 
+			<ul>
+				<li>1 x Airbus A380 Full tunné (intérieur cuir)</li>
+				<li>10 x Porsche Cayenne </li>
+				<li>Des milliers de canettes Monster Energy</li>
+			</ul>
+		</div>
 
+		<div class="bg-pub col-lg-9"></div>
+	</div>
+</div>
 
 <?php
 session_start();
