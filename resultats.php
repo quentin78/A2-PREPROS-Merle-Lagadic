@@ -53,7 +53,7 @@ include('header.html');
 		</div>
 		<div class="result2 col-lg-offset-1 col-lg-5 col-lg-offset-1 col-md-offset-2 col-md-8 col-md-offset-2 col-xs-offset-2 col-xs-8 col-xs-offset-2">
 
-		        <h1 class="titre-result">Liste des derniers gagants</h1>
+		        <h1 class="titre-result">Liste des derniers gagnants</h1>
 				<p>MAJ le 22/09/16 à 23:38</p>
 			<table>
 			
