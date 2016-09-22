@@ -14,7 +14,7 @@ session_start();
 	<script type="text/javascript" src="js/style.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-	<title> Grand Jeux FJ </title>
+	<title> Grand Jeu PMU </title>
 </head>
 <div class="container-fluid">
 	<div class="row">
