@@ -4,15 +4,36 @@ include('header.html');
 ?>
 
 <div class="container-fluid">
-	<div class="bloc row col-lg-6">
+	<div class="row">
+		<div class="block2-result">
+			<div class="horloge col-lg-offset-8 col-lg-4">
+				
+
+						<div class="clock">
+						<div class="numbers">
+						<ul>
+						  <li>12</li>
+						  <li>3</li>
+						  <li>6</li>
+						  <li>9</li>
+						</ul>
+						</div>
+						<div class="clockwise">
+						<div class="center"></div>
+						<div class="hand-second" id="analogsecond"></div>
+						<div class="hand-minute" id="analogminute"></div>
+						<div class="hand-hour" id="analoghour"></div>
+						</div>
+						</div>
 
 
 
 
 
+			</div>
+		</div>
 	</div>
 </div>
-
 
 
 
