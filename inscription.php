@@ -61,7 +61,7 @@ include('header.html');
 
 			<div class="box-formulaire  col-lg-offset-2 col-lg-4 col-lg-offset-1  col-md-6  col-sm-3  col-xs-12">
 			<h2>Incrivez-vous vite pour participer à notre grand tirage au sort ! </h2>
-			<p>Il vous suffit de rentrer votre Nom, Prenom, Adresse et votre numero de téléphone pour valider votre iscription ! </p>
+			<p>Il vous suffit de rentrer votre Nom, Prenom, Adresse et votre numero de téléphone pour valider votre inscription ! </p>
 			
 			</div>
 		</div>

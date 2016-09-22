@@ -58,12 +58,17 @@ include('header.html');
 						</tr>
 					</table>
 				</div>
-				<div class="bg-pub col-lg-9"></div>
-				
-		</div>
-		<div class="col-lg-offset-5 col-lg-7">
+				<div class="bg-pub col-lg-9"> 
+		<div class="row">
+		<div class="col-lg-offset-3 col-lg-5">
 			<a class="lien-btn2" href="inscription.php"><i class="fa fa-dribbble"></i> Inscrivez-Vous !</a>
 		</div>
+	</div></div>
+
+
+				
+		</div>
+
 	</div>
 </div>
 
