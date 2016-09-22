@@ -5,7 +5,7 @@ include('header.html');
 
 
 
-			<script>alert("<?php echo htmlspecialchars('Vous avez bien entendu perdu. Essayez de nouveau !', ENT_QUOTES); ?>")</script>
+			<script>alert("<?php echo htmlspecialchars('Vous avez bien entendu, perdu ! Essayez de nouveau !', ENT_QUOTES); ?>")</script>
 
 
 
