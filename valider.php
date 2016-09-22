@@ -7,7 +7,7 @@ include('header.html');
 		<div class="row">
 			<div class="validé col-lg-offset-1 col-lg-10 ">
 				<h1 >Votre Inscription a bien étée prise en compte ! </h1>
-				<p>Restez conncté sur notre site afin de suivre le déroulé du tirage au sort ! 
+				<p>Restez connecté sur notre site afin de suivre le déroulé du tirage au sort ! 
 				Les résultats seront en ligne le 1/10/2016 à 00h00 ! </p>
 				<p><a href="resultats.php">CLIQUEZ ICI</a> pour découvir les précédents résultats</p>
 			</div>

@@ -39,17 +39,31 @@ include('header.html');
 
 
 <div class="container-fluid">
-<h1>Des cadeaux innimaginables sont a gagner !</h1>
-	<div class="row">
-		<div class="text-pub col-lg-3"> 
-			<ul>
-				<li>1 x Airbus A380 Full tunné (intérieur cuir)</li>
-				<li>10 x Porsche Cayenne </li>
-				<li>Des milliers de canettes Monster Energy</li>
-			</ul>
+	<div class="block2-jouer">
+		<h1>Des cadeaux innimaginables sont a gagner !</h1>
+		<div class="row">
+				<div class="text-pub col-lg-3"> 	
+					<table>
+						<tr>
+							<th>Cadeaux</th>
+						</tr>
+						<tr>
+							<td>1 x <b>Airbus A380<b></td>
+						</tr>
+						<tr>
+							<td>10 x <b>Porsche Cayenne<b> </td>
+						</tr>
+						<tr>
+							<td>100 x <b>Monster Energy Drink<b></td>
+						</tr>
+					</table>
+				</div>
+				<div class="bg-pub col-lg-9"></div>
+				
 		</div>
-
-		<div class="bg-pub col-lg-9"></div>
+		<div class="col-lg-offset-5 col-lg-7">
+			<a class="lien-btn2" href="inscription.php"><i class="fa fa-dribbble"></i> Inscrivez-Vous !</a>
+		</div>
 	</div>
 </div>
 
