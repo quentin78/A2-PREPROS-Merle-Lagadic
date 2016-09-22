@@ -3,6 +3,15 @@ session_start();
 include('header.html');
 ?>
 
+
+
+<div class="container-fluid">
+		<div class="row">
+		<div class="banniere">
+		<p>Jouer comporte des risques : Edettement, Isolement, Dependance.<br> Pour etre aidé, Appelez le 09 74 75 13 13 (Appel non surtaxé)</p>
+		</div>
+	</div>
+</div>
 <div class="bg1">
 	<div class="container-fluid">
 		<div class="row">
@@ -16,7 +25,7 @@ include('header.html');
 				    <input type="text" name="nom"  size="40" class="requis"/></p>
 				<p class="text-formu">Votre email<br />
 				    <input type="email" name="email" size="40" class="requis"/></p>
-				<p class="text-formu">Sujet<br />
+				<p class="text-formu">Adresse<br />
 				    <input type="text" name="sujet" size="40" class="requis" /></p>
 				
 				<p class="text-formu">Votre Téléphone<br/><input type="tel" name="phone" size="40" class="requis" /></p>
@@ -30,7 +39,7 @@ include('header.html');
 
 			<div class="box-formulaire  col-lg-offset-2 col-lg-5  col-md-6  col-sm-3  col-xs-12">
 			<h1>Incrivez-vous vite pour participer à notre grand tirage au sort ! </h1>
-			<p>Il vous suffit de rentrer votre Nom, Prenom et votre numero de téléphone pour valider votre iscription ! </p>
+			<p>Il vous suffit de rentrer votre Nom, Prenom, Adresse et votre numero de téléphone pour valider votre iscription ! </p>
 			
 			</div>
 		</div>

@@ -6,14 +6,14 @@ $rouge : rgba(231, 76, 60,1.0);
 $vertpmu : #00a01e;
 
 @font-face {
-font-family: 'theboldfont', 'big_noodle_titling';
-src: url('../contenu/theboldfont.ttf');
-src: url('../contenu/titling/big_noodle_titling.ttf');
+  font-family: 'theboldfont', 'big_noodle_titling';
+  src: url('../contenu/theboldfont.ttf');
+  src: url('../contenu/titling/big_noodle_titling.ttf');
 }
 
 @font-face {
-font-family:'big_noodle_titling';
-src: url('../contenu/titling/big_noodle_titling.ttf');
+  font-family:'big_noodle_titling';
+  src: url('../contenu/titling/big_noodle_titling.ttf');
 }
 
 video { 
@@ -28,12 +28,15 @@ video {
   transform: translateX(-50%) translateY(-50%);
   background-size: cover;
   transition: 1s opacity;
-  background-color: ;
 }
 
 
 
 
+
+
+
+/* ---- PAGE INDEX.PHP ----- */ 
 
 .polina { 
 
@@ -66,10 +69,6 @@ video {
  }
 
 
-
-
-
-
  .logo-pmu {
   height: 10%;
   width: 10%;
@@ -81,6 +80,21 @@ video {
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -109,7 +123,26 @@ video {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------ JEUX ------ */
+
+
 .commentjouer {
   font-family:'big_noodle_titling';
   font-size: 10rem;
@@ -273,8 +306,6 @@ video {
 }
 
 
-
-
 .section-comment {
   .details {
     font-size: 0.75em;
@@ -285,6 +316,20 @@ video {
 
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -325,8 +370,28 @@ img {
 
 
 
+
+
+
+
+
 /* ----- Inscription ------ */
 
+
+
+.container-fluid {
+  .row {
+    .banniere {
+      p { 
+
+        text-align :center;
+        font-size:  1.6em;
+        font-family: 'big_noodle_titling';
+        padding-top: 9px;
+      }
+    }
+  }
+}
 
 .box-formulaire {
   background-color: $vertpmu;
@@ -344,16 +409,13 @@ img {
   padding: 61px;
 
 
-
-
-
 } 
 
 form{
-    formulaire {
+  formulaire {
 
-  text-align: center;
-}
+    text-align: center;
+  }
 }
 
 .requis {
@@ -363,9 +425,6 @@ form{
     background-color: $rouge;
   }
 }
-
-
-
 
 
 
@@ -408,4 +467,91 @@ form{
   color:white;
 
 }
+
+
+.result2 {
+  h1 {
+  font-size: 20px;
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------ PAGE RESULTATS -------- */ 
+
+
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+
+    tr {
+
+      height: 50%;
+      th {
+        background-color: $vertpmu;
+        color: white;
+        padding:10px;
+      }
+
+      td {
+        vertical-align: bottom;
+        padding: 10px;
+        border-bottom: 1px solid #ddd
+
+      }
+      &:hover {
+        background-color: #f5f5f5
+      }
+      &:nth-child(even) {
+        background-color: #f2f2f2
+      }
+    }
+  }
+}
+
+
+
+
+.result1 {
+  margin-top: 12vw;
+  border: 1px solid #ecf0f1;
+  background-color: #ecf0f1;
+  font-family: 'big_noodle_titling';
+  text-align: center;
+  padding: 30px 20px 10px 30px;
+  border-radius: 3px;
+
+}
+
+  .form-verif {
+    
+  
+input {
+  width: 20vw;
+  }
+}
+
+
+.block2-resut {
+  background-color: black;
+}
+
+
+
+
+
 
