@@ -42,12 +42,15 @@ include('header.html');
 	<div class="row">
 		<div class="result1 col-lg-offset-1 col-lg-4 col-md-offset-2 col-md-8 col-md-offset-2 col-xs-offset-2 col-xs-8 col-xs-offset-2">
 			<p>Entrez vite votre Nom pour vous rendre compte à quel point ce jeu est bidon et que vous n'avez aucune chance de gagner !</p>
-			<form class="form-verif">
-			  <input type="text" placeholder="Entrez votre Nom">
-			  <button  class="btn-verif" type="submit">Vérifier</button>
+			<form type="post" class="form-verif">
+			  <input type="text" placeholder="Entrez votre Nom" name="nom">
+			  <button  name="btn-verif" class="btn-verif" type="submit">Vérifier</button>
 			</form>
 
-	
+	<?php
+      $error = 'Vous avez bien entendu perdu. Essayez de nouveau !';
+
+	?>
 
 		</div>
 		<div class="result2 col-lg-offset-1 col-lg-5 col-lg-offset-1 col-md-offset-2 col-md-8 col-md-offset-2 col-xs-offset-2 col-xs-8 col-xs-offset-2">
