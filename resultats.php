@@ -3,6 +3,7 @@ session_start();
 include('header.html');
 ?>
 
+
 <div class="container-fluid">
 	<div class="row">
 		<div class="block2-result">
@@ -103,6 +104,7 @@ include('header.html');
 		</div>
 	</div>
 </div>
+
 
 
 
