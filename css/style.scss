@@ -331,8 +331,9 @@ video {
 
 
 .container-fluid {
-   font-family:'big_noodle_titling';
+   
   h1 {
+    font-family:'big_noodle_titling';
     font-size: 3em;
     
   }
@@ -358,7 +359,7 @@ video {
       height: 825px;
       img {
         height: 500px;
-        background-size: contain;
+        width: 300px;
       }
   
     }
