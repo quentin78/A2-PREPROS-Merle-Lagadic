@@ -12,6 +12,8 @@ include('header.html');
 		</div>
 	</div>
 </div>
+
+
 <div class="bg1">
 	<div class="container-fluid">
 		<div class="row">
@@ -19,7 +21,7 @@ include('header.html');
 
 
 			<div class="formulaire col-lg-offset-1 col-lg-4  col-md-6 col-sm-5 col-xs-12">
-				<form action="valider.php" method="post">
+				<form action="valider.php" method="POST">
 
 				<p class="text-formu">Votre nom <br/>
 				    <input type="text" name="nom"  size="40" class="requis"/></p>

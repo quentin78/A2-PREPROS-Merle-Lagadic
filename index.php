@@ -25,6 +25,9 @@ session_start();
 			<source src="contenu/cheval.mp4" type="video/mp4">
 
 			</video>
+			<div>
+				<img class="logo-pmu" src="contenu/images/logo_pmu.png">
+			</div>
 				
 					<div class="col-lg-offset-3 col-lg-8 col-md-offset-3 col-md-8 col-sm-offset-3 col-sm-8 col-xs-offset-2 col-xs-12">
 						<div class="polina">
