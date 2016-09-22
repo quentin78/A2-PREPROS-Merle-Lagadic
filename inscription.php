@@ -30,32 +30,24 @@ include('header.html');
           
           <div class="top-row">
             <div class="field-wrap">
-              <label>
-                Nom<span class="req">*</span>
-              </label>
-              <input type="text" required autocomplete="off" />
+             
+              <input type="text" required autocomplete="off" placeholder="Nom" />
             </div>
         
             <div class="field-wrap">
-              <label>
-                Prénom<span class="req">*</span>
-              </label>
-              <input type="text"required autocomplete="off"/>
+              
+              <input type="text"required autocomplete="off" placeholder="Prénom"/>
             </div>
           </div>
 
           <div class="field-wrap">
-            <label>
-              Adresse Mail<span class="req">*</span>
-            </label>
-            <input type="email"required autocomplete="off"/>
+           
+            <input type="email"required autocomplete="off" placeholder="Email" />
           </div>
           
          <div class="field-wrap">
-            <label>
-              Téléphone<span class="req">*</span>
-            </label>
-            <input type="phone"required autocomplete="off"/>
+           
+            <input type="phone"required autocomplete="off" placeholder="Téléphone " /> 
           </div>
           
           <button type="submit" class="button button-block"/>Envoyer</button>
