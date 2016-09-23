@@ -805,8 +805,9 @@ input, textarea {
 }
 
 .form-verif {
+
   input {
-    color:#vertpmu;
+    color:$vertpmu;
 height: 40px;
     @include border-radius(5px);
 
