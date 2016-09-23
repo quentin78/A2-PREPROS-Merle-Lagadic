@@ -23,6 +23,14 @@ $normal: 400;
 $bold: 600;
 $br: 4px;
 
+
+
+@mixin degrade($sens, $color , $color2) {
+  background-image: -webkit-linear-gradient($sens, $color, $color2); 
+ }
+
+
+
 @font-face {
   font-family: 'theboldfont';
   src: url('../contenu/theboldfont.ttf');
@@ -410,13 +418,12 @@ video {
 
 
 
-
 .lien-btn2 {
   
   position: relative;
   top:650px;
   background: #00a01e;
-  background-image: linear-gradient(to bottom, #00a01e, #004d0e);
+  @include degrade(bottom , #00a01e, #004d0e);
   border-radius: 13px;
   font-family: Arial;
   color: #ffffff;
@@ -551,33 +558,7 @@ h1 {
   margin:0 0 40px;
 }
 
-label {
-  position:absolute;
-  transform:translateY(6px);
-  left:13px;
-  color:rgba($white,.5);
-  transition:all 0.25s ease;
-  -webkit-backface-visibility: hidden;
-  pointer-events: none;
-  font-size:22px;
-  .req {
-    margin:2px;
-    color:$main;
-  }
-}
 
-label.active {
-  transform:translateY(50px);
-  left:2px;
-  font-size:14px;
-  .req {
-    opacity:0;
-  }
-}
-
-label.highlight {
-  color:$white;
-}
 
 input, textarea {
   font-size:22px;
@@ -597,10 +578,6 @@ input, textarea {
   }
 }
 
-textarea {
-  border:2px solid $gray-light;
-  resize: vertical;
-}
 
 .field-wrap {
   position:relative;
@@ -692,36 +669,9 @@ textarea {
   padding: 61px;
 
 
-} 
-
-
-
-
-.requis {
-  border-radius: 10px;
-  background-color: #fff;
-  &:focus {
-    background-color: $rouge;
-  }
-}
-
-
-
-.textarea {
-  border-radius: 10px;
-  background-color: $rouge;
-  &:focus{
-   background-color: #ffffff;
-
- }
 
 }
 
-.text-formu {
-  color: #fff;
-  font-size: bolder;
-
-}
 
 .envoyer {
   text-align: center;
@@ -742,10 +692,16 @@ textarea {
   background-color:#808080;
 }
 
-.navbar-default .navbar-nav  li  a {
-  color:white;
-
+.navbar-default {
+  .navbar-nav {
+    .li-navbar {
+      .lien-navbar {
+        color: white;
+      }
+    }
+  } 
 }
+
 
 
 .result2 {
@@ -850,6 +806,7 @@ textarea {
 
 .form-verif {
   input {
+    color:#vertpmu;
 height: 40px;
     @include border-radius(5px);
 
@@ -867,11 +824,10 @@ height: 40px;
 }
 
 
+
 .btn-verif {
+  @include degrade(top ,#00a01d ,#016e15);
   font-family: 'big_noodle_titling';
-  background: #00a01d;
-  background-image: -webkit-linear-gradient(top, #00a01d, #016e15);
-  background-image: linear-gradient(to bottom, #00a01d, #016e15);
   border-radius: 6px;
   box-shadow: 0px 6px 3px #035410;
   color: #ffffff;
@@ -879,10 +835,9 @@ height: 40px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   &:hover {
-  background: #005c11;
-  background-image: -webkit-linear-gradient(top, #005c11, #02c726);
-  background-image: linear-gradient(to bottom, #005c11, #02c726);
-  text-decoration: none;
+    background: #005c11;
+    @include degrade(top ,#005c11 ,#02c726);
+    text-decoration: none;
   }
 }
 
