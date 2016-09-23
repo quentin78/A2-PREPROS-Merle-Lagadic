@@ -15,12 +15,12 @@ include('header.html');
 <div class="bg1">
 	<div class="container-fluid">
 		<div class="row">
-			<div class=" col-lg-5  col-md-6 col-sm-5 col-xs-12">
+			<div class=" col-lg-5 col-md-5 ">
 
 			<div class="form">
       
       <ul class="tab-group">
-        <img src="contenu/images/HTFile.png" style="width:140px;margin-left:115px;">
+        <img class="logo" src="contenu/images/HTFile.png" style="width:140px;margin-left:115px;">
         
       </ul>
       
@@ -34,22 +34,19 @@ include('header.html');
               <input type="text" required autocomplete="off" placeholder="Nom" />
             </div>
         
-            <div class="field-wrap">
-              
-              <input type="text"required autocomplete="off" placeholder="Prénom"/>
-            </div>
-          </div>
+          
+         
 
           <div class="field-wrap">
            
             <input type="email"required autocomplete="off" placeholder="Email" />
           </div>
-          
+          </div>
          <div class="field-wrap">
            
             <input type="phone"required autocomplete="off" placeholder="Téléphone " /> 
           </div>
-          
+           
           <button type="submit" class="button button-block"/>Envoyer</button>
           
           </form>
@@ -59,7 +56,7 @@ include('header.html');
 
 
 
-			<div class="box-formulaire  col-lg-offset-2 col-lg-4 col-lg-offset-1  col-md-6  col-sm-3  col-xs-12">
+			<div class="box-formulaire  col-lg-offset-2 col-lg-4 col-lg-offset-1 col-md-offset-2 col-md-4 col-md-offset-1 ">
 			<h2>Incrivez-vous vite pour participer à notre grand tirage au sort ! </h2>
 			<p>Il vous suffit de rentrer votre Nom, Prenom, Adresse et votre numero de téléphone pour valider votre inscription ! </p>
 			

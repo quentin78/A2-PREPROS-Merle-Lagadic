@@ -9,9 +9,11 @@ include('header.html');
 		<p class="commentjouer">Comment jouer ?</p>
 		<ul class="instructions-container">
 			<li class="instruction">
+
 				<div class="puce">
-					<div class="puce-inner">1</div>
+						<div class="puce-inner">1</div>
 				</div>
+
 				<h4>Inscrivez-vous</h4>
 				<p><b>Cliquez sur le bouton</b><br/>
 				<span class=""><a href="inscription.php">S'inscrire</a></span> et remplir le formulaire</p>
@@ -34,13 +36,14 @@ include('header.html');
 				</ul>
 			</li>
 		</ul>
+					</div>
 	</div>
 </section>
 
 
 <div class="container-fluid">
 	<div class="block2-jouer">
-		<h1>Des cadeaux innimaginables sont a gagner !</h1>
+		<h1>Des cadeaux inimaginables sont a gagner !</h1>
 		<div class="row">
 				<div class="text-pub col-lg-3"> 	
 					<table>
