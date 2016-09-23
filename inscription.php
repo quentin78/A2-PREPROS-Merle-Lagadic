@@ -1,5 +1,7 @@
 <?php
 session_start();
+include('config/config.php');
+include('model/fonctions.fn.php');
 include('header.html');
 ?>
 
@@ -26,25 +28,23 @@ include('header.html');
       
       
           
-          <form action="valider.php" method="post">
+          <form action="inscriptions-ok.php" method="post">
           
           <div class="top-row">
             <div class="field-wrap">
              
-              <input type="text" required autocomplete="off" placeholder="Nom" />
+              <input name="username" type="text"required required autocomplete="off" placeholder="Nom" />
             </div>
-        
-          
-         
+      
 
           <div class="field-wrap">
            
-            <input type="email"required autocomplete="off" placeholder="Email" />
+            <input name="email" type="text"required autocomplete="off" placeholder="Email" />
           </div>
           </div>
          <div class="field-wrap">
            
-            <input type="phone"required autocomplete="off" placeholder="Téléphone " /> 
+            <input name="chiffre" type="text"required autocomplete="off" placeholder="Entrez un chiffre entre 0 et 100 " /> 
           </div>
            
           <button type="submit" class="button button-block"/>Envoyer</button>
@@ -74,6 +74,5 @@ include('header.html');
 </div>
 </div>
 <?php
-session_start();
 include('footer.html');
 ?>
