@@ -1,6 +1,7 @@
 <?php
 session_start();
 include('header.html');
+include('config.php');
 ?>
 
 
@@ -109,6 +110,5 @@ include('header.html');
 
 
 <?php
-session_start();
 include('footer.html');
 ?>
